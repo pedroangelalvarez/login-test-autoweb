@@ -30,7 +30,7 @@ After(async function (this: CustomWorld) {
 });
 
 Given('que el usuario está en la página de login', async function (this: CustomWorld) {
-    await this.actor.attemptsTo(Navigate.to('http://localhost:5173'));
+    await this.actor.attemptsTo(Navigate.to('https://login-test-autoweb.vercel.app'));
 });
 
 When('ingresa sus credenciales válidas', async function (this: CustomWorld) {
