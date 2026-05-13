@@ -3,7 +3,7 @@
     import { authStore } from "../stores";
 
     function logout() {
-        $authStore = { loggedIn: false };
+        $authStore = { loggedIn: false, documento: '', tipoDocumento: 'dni' };
         navigate("/", { replace: true });
     }
 </script>
